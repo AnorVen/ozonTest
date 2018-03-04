@@ -1,0 +1,237 @@
+.wrapper {
+  wrapper()
+}
+
+.intro {
+  margin-top: 45px;
+  &__title {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: -1px;
+    margin-bottom: 17px
+  }
+  &__img {
+    display: block
+  }
+  .social__links {
+    padding-right: 1px;
+    margin-top: 10px;
+    clearfix();
+    .link {
+      display block;
+      float right;
+      width: 32px;
+      height: 32px;
+      margin-right: 5px;
+      font-size: 0;
+      line-height: 0;
+    }
+    .fb {
+      background: url("../img/fb.png") 0 0 no-repeat;
+    }
+    .vk {
+      background: url("../img/vk.png") 0 0 no-repeat;
+    }
+    .tw {
+      background: url("../img/tw.png") 0 0 no-repeat;
+    }
+    .ok {
+      background: url("../img/ok.png") 0 0 no-repeat;
+    }
+  }
+  &__text {
+    margin-top: 72px;
+    line-height: 24px;
+    wrapper-small();
+
+  }
+}
+
+.history {
+  wrapper-small();
+  margin-top: 52px;
+  &__title {
+    font-size: 25px;
+    text-align: center;
+    margin-left: -24px;
+  }
+  &__text {
+    font-size: 16px;
+    margin-top: -3px;
+    line-height: 25px;
+    margin-bottom: 40px;
+  }
+
+}
+
+.trade {
+  wrapper-small();
+  margin-top: 53px;
+  &__title {
+    text-align: center;
+  }
+  .product__list {
+    margin-top: 40px;
+  }
+  .category {
+
+    &__title {
+      height: 150px;
+      background-position center;
+      background-repeat: no-repeat;
+      background-size: contain
+      font-size: 22px;
+      margin: 0 auto;
+      color: #fff;
+      display: table
+      width: 100%;
+      h3 {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 22px;
+      }
+      &--home {
+        background-image: url('../img/home.jpg');
+      }
+      &--home-tech {
+        background-image: url('../img/technique.jpg');
+        margin-top: 50px;
+        margin-bottom: 88px;
+      }
+      &--auto {
+        background-image: url('../img/Carrepair.jpg');
+      }
+      &--animal {
+        background-image: url('../img/pets.jpg');
+      }
+      &--sport {
+        background-image: url('../img/camping.jpg');
+      }
+      &--kids {
+        background-image: url('../img/kids.jpg');
+      }
+      &--beauty {
+        background-image: url('../img/beauty.jpg');
+      }
+      &--end {
+        background-image: url('../img/block.jpg');
+      }
+
+    }
+
+    .product {
+      &__item {
+        clearfix();
+        margin-top: 50px;
+        &--2{
+          margin-top:54px;
+          .product__desc{
+            margin-top: 22px;
+            margin-left: 34px;
+
+          }
+          .product__text{
+            margin-top:11px;
+          }
+          .product__img{
+
+          }
+        }
+        &--3{
+          margin-top:33px;
+          .product__desc{
+            margin-top: 22px;
+            margin-left: 34px;
+
+          }
+          .product__text{
+            margin-top:11px;
+          }
+          .product__img{
+            top: -58px;
+            left: 8px;
+            margin-bottom: -55px;
+
+          }
+        }
+      }
+      &__view {
+        position: relative;
+        float: left;
+        width: 31%;
+        margin-right: 35px;
+        margin-left: 10px;
+        .link__view {
+          text-decoration none;
+          color: link_blue;
+          text-align: center;
+          display: block;
+          margin-bottom: 12px;
+        }
+        &--right {
+          width: 25%;
+          float right;
+          .product__img {
+            top: -72px;
+            left: 15px;
+            margin-bottom: -68px;
+
+          }
+        }
+
+      }
+
+      &__img {
+        position: relative
+        top: -28px;
+        margin-bottom: -22px;
+        left: -10px;
+      }
+      &__buy {
+        padding: 7px 34px;
+        border: none;
+        display: block;
+        margin: 0 auto;
+        color: #fff;
+        background-color: #0c77b5;
+        text-transform: capitalize;
+        &:active{
+          box-shadow 0 0 15px red;
+        }
+      }
+
+      &__desc {
+        float: left;
+        width: 57%;
+        margin-top: 18px;
+        margin-left: 36px;
+        position: relative
+        .link__title {
+          font-size: 18px;
+        }
+      }
+      &__num {
+        position: absolute;
+
+        top: -4px;
+        left: -32px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        background-color: #000;
+        height: 25px;
+        width: 25px;
+        color: #fff;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 22px;
+      }
+      &__text {
+        line-height: 25px;
+        margin-top: 13px;
+      }
+    }
+  }
+
+}
