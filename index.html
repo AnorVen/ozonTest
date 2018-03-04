@@ -6,13 +6,25 @@
 				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Тестовое задание Ефремов</title>
-	<link rel="stylesheet" href="./css/style.min.css">
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="body">
 <div class="wrapper">
 	<section class="intro">
 		<h1 class="intro__title">Что купить в Чёрную пятницу: <br>20 товаров с отличными скидками</h1>
-		<img src="img/pick.jpg" alt="" class="intro__img">
+		<img src="img/animation.gif" alt="" class="anima__bag" height="400" width="960">
+		<div class="anima">
+			<picture>
+				<source media="(min-width: 768px)" srcset="img/bag.jpg">
+				<source media="(max-width: 767px)" srcset="img/pick.jpg">
+				<img src="img/pick.jpg" alt="" width="960" height="400">
+			</picture>
+			<img src="./img/bosch.png" alt="" width="168" height="190" class="anima__bosh">
+			<img src="./img/toy.png" alt="" class="anima__toy" height="205" width="236">
+			<img src="./img/toothbrush.png" alt="" width="54" height="187" class="anima__tooth">
+			<img src="./img/teapot.png" alt="" class="anima__tea" height="231" width="193">
+		</div>
+
 		<div class="social__links">
 			<a href="https://ok.com" class="link ok">Одноклассники</a>
 			<a href="https://vk.com" class="link vk">Вконтакте</a>
@@ -46,6 +58,7 @@
 
 				<div class="product__item product__item--1">
 					<div class="product__view">
+
 						<img src="./img/1.png" alt="Японский стиральный порошок Funs" class="product__img" width="233" height="200">
 						<a href="#" class="link__view">Японский стиральный порошок Funs</a>
 						<button class="product__buy">купить</button>
@@ -94,12 +107,10 @@
 			<div class="category category__home-tech">
 				<div class="category__title category__title--home-tech"><h3>Бытовая техника</h3></div>
 
-				<div class="product__item">
+				<div class="product__item product__item--4">
 
-					<div class="product__view"><img src="./img/4.png" alt="Кофеварка Travola" class="product__img" width="224"
-																					height="200"><a href="#"
-																													class="link__view">Кофеварка
-						Travola</a>
+					<div class="product__view"><img src="./img/4.png" alt="Кофеварка Travola" class="product__img" width="224" height="200">
+						<a href="#" class="link__view">Кофеварка Travola</a>
 						<button class="product__buy">купить</button>
 					</div>
 					<div class="product__desc"><b class="product__num">4.</b><a href="#" class="link__title">Кофеварка Travola</a>
@@ -107,7 +118,7 @@
 							многих своих собратьев, поэтому поместится даже на небольшой кухне</p>
 					</div>
 				</div>
-				<div class="product__item">
+				<div class="product__item product__item--5">
 					<div class="product__desc"><b class="product__num">5.</b><a href="#" class="link__title">Электрочайник с
 						функцией
 						поддержания тепла Travola</a>
@@ -123,7 +134,7 @@
 					</div>
 
 				</div>
-				<div class="product__item">
+				<div class="product__item product__item--6">
 					<div class="product__view"><img src="./img/6.png" alt="Робот-пылесос Xrobot XR-510F" class="product__img"
 																					width="214" height="200"><a
 							href="#" class="link__view">Робот-пылесос Xrobot XR-510F</a>
@@ -143,7 +154,7 @@
 			</div>
 			<div class="category category__auto">
 				<div class="category__title category__title--auto"><h3>Для автомобиля и ремонта</h3></div>
-				<div class="product__item">
+				<div class="product__item product__item--7">
 					<div class="product__view"><img src="./img/7.png" alt="Автомобильный компрессор BERKUT R15"
 																					class="product__img" width="242" height="200"><a href="#" class="link__view">Автомобильный
 						компрессор
@@ -160,7 +171,7 @@
 							защищён от перегрева.</p>
 					</div>
 				</div>
-				<div class="product__item">
+				<div class="product__item product__item--8">
 					<div class="product__desc"><b class="product__num">8.</b><a href="#" class="link__title">Аккумуляторная
 						дрель-шуруповёрт Bosch</a>
 						<p class="product__text">Профессиональный инструмент с 2 скоростями, удобен при работе там, где нет доступа
@@ -173,7 +184,7 @@
 						<button class="product__buy">купить</button>
 					</div>
 				</div>
-				<div class="product__item">
+				<div class="product__item product__item--9">
 					<div class="product__view"><img src="./img/9.png" alt="Многофункциональный инструмент Dremel"
 																					class="product__img" width="250" height="202">
 						<a href="#" class="link__view">Многофункциональный инструмент Dremel</a>
@@ -189,7 +200,7 @@
 			<div class="category  category__animal">
 				<div class="category__title category__title--animal"><h3>Для животных</h3></div>
 
-				<div class="product__item product__item--1/3">
+				<div class="product__item product__item--third product__item--10">
 					<div class="product__view"><img src="./img/10.jpg" alt="Светодиодный брелок
 на ошейник Pet Fun" class="product__img" height="190" width="174">
 						<a href="#" class="link__view">Светодиодный брелок
@@ -204,7 +215,7 @@
 					</div>
 
 				</div>
-				<div class="product__item product__item--1/3">
+				<div class="product__item product__item--third product__item--11">
 					<div class="product__view"><img src="./img/11.jpg" alt="Автомобильная подстилка для животных"
 																					class="product__img" width="216" height="190">
 						<a href="#" class="link__view">Автомобильная подстилка для
@@ -218,7 +229,7 @@
 							настоящими пассажирами: комфортно расположиться на заднем сиденье и выглядывать в окно.</p>
 					</div>
 				</div>
-				<div class="product__item product__item--1/3">
+				<div class="product__item product__item--third product__item--12">
 					<div class="product__view">
 						<img src="./img/12.jpg" alt="Домик для животных «Лягушка»" class="product__img" height="190" width="220">
 						<a href="#" class="link__view">Домик для животных «Лягушка»</a>
@@ -233,11 +244,11 @@
 				</div>
 			</div>
 			<div class="category  category__sport">
-				<div class="category__title category__title--sport"><h3>Для активного отдыха и занятий спортом
+				<div class="category__title category__title--sport"><h3>Для активного отдыха<br> и занятий спортом
 				</h3></div>
 
 
-				<div class="product__item">
+				<div class="product__item  product__item--13">
 					<div class="product__view"><img src="./img/13.jpg" alt="Двухместная палатка Bestway" class="product__img" width="225" height="200">
 						<a href="#" class="link__view">Двухместная палатка Bestway</a>
 						<button class="product__buy">купить</button>
@@ -248,7 +259,7 @@
 					</div>
 				</div>
 
-				<div class="product__item">
+				<div class="product__item  product__item--14">
 					<div class="product__desc"><b class="product__num">14.</b><a href="#" class="link__title">Городской рюкзак
 						Outdoor
 						Gear</a>
@@ -261,7 +272,7 @@
 						<button class="product__buy">купить</button>
 					</div>
 				</div>
-				<div class="product__item">
+				<div class="product__item product__item--15">
 					<div class="product__view"><img src="./img/15.jpg" alt="Массажный фитбол Ironmaster" class="product__img" width="238" height="200">
 						<a href="#" class="link__view">Массажный фитбол Ironmaster</a>
 						<button class="product__buy">купить</button>
@@ -277,8 +288,8 @@
 			<div class="category  category__kids">
 				<div class="category__title category__title--kids"><h3>Для детей</h3></div>
 
-				<div class="product__item">
-					<div class="product__view"><img src="./img/16.jpg" alt="Конструктор Ausini «Самолёт»" class="product__img"><a
+				<div class="product__item product__item--16">
+					<div class="product__view"><img src="./img/16.jpg" alt="Конструктор Ausini «Самолёт»" class="product__img" width="238" height="188"><a
 							href="#" class="link__view">Конструктор Ausini «Самолёт»</a>
 						<button class="product__buy">купить</button>
 					</div>
@@ -290,7 +301,7 @@
 					</div>
 
 				</div>
-				<div class="product__item">
+				<div class="product__item  product__item--17">
 
 					<div class="product__desc"><b class="product__num">17.</b><a href="#" class="link__title">Игровой набор с
 						куклой
@@ -299,14 +310,14 @@
 							подарок
 							для девочки от 3 лет!</p>
 					</div>
-					<div class="product__view product__view--right"><img src="./img/17.jpg" alt="Игровой набор с куклой Belly" class="product__img"><a
+					<div class="product__view product__view--right"><img src="./img/17.jpg" alt="Игровой набор с куклой Belly" class="product__img" height="200" width="195"><a
 							href="#" class="link__view">Игровой набор с куклой Belly</a>
 						<button class="product__buy">купить</button>
 					</div>
 				</div>
-				<div class="product__item">
+				<div class="product__item  product__item--18">
 					<div class="product__view"><img src="./img/18.jpg" alt="Набор фигурок National Geographic"
-																					class="product__img"><a
+																					class="product__img" width="232" height="200"><a
 							href="#" class="link__view">Набор фигурок National Geographic</a>
 						<button class="product__buy">купить</button>
 					</div>
@@ -323,7 +334,7 @@
 			<div class="category  category__beauty">
 				<div class="category__title category__title--beauty"><h3>Для красоты</h3></div>
 
-				<div class="product__item product__item--1/2">
+				<div class="product__item product__item--half  product__item--19">
 					<div class="product__view"><img src="./img/19.jpg" alt="Электрическая роликовая пилка Travola"
 																					class="product__img" height="200" width="163">
 						<a href="#" class="link__view">Электрическая роликовая пилка Travola</a>
@@ -336,7 +347,7 @@
 							Прибором нельзя порезаться, он безопасен и удобен. Имеет перезаряжаемый аккумулятор.</p>
 					</div>
 				</div>
-				<div class="product__item product__item--1/2">
+				<div class="product__item product__item--half  product__item--20">
 
 					<div class="product__view"><img src="./img/20.jpg" alt="Электрическая зубная щётка Travola"
 																					class="product__img" width="145" height="200">
@@ -352,17 +363,13 @@
 			</div>
 			<div class="category  category__end">
 				<div class="category__title category__title--end"><h3>И это только малая часть товаров, участвующих в
-					распродаже! Все товары смотрите в
-					разделе <a href="#">Чёрной пятницы</a>.</h3></div>
-				<div class="product__all"><a href="#">Посмотреть все товары со скидками ></a></div>
+					распродаже!<br>Все товары смотрите в разделе <a href="#">Чёрной пятницы</a>.</h3></div>
+				<div class="product__all"><a href="#" class="all__link">Посмотреть все товары со скидками ></a></div>
 			</div>
 
 
 		</div>
 	</section>
-	<div class="comeback">
-		<a href="#">Все статьи в разделе «Продукты питания»</a>
-	</div>
 </div>
 </body>
 </html>
